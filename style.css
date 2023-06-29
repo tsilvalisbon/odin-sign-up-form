@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+   background-color:#f8fbfb ; 
+}
+
+h1{
+    font-family: 'Caprasimo', cursive;
+    color: white;
+    font-size: 55px;
+}
+
+.main-container{
+    height: 100vh;
+}
+
+.main-container , .side-page , .logo-container, .form-page{
+    display: flex;
+}
+
+.side-page {
+    background-image: url("Images/unsplash.jpg");
+    background-size: cover;
+    width: 45vw;
+}
+
+.logo-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20vh;
+    width: 45vw;
+    margin-top: 20vh;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 18vh;
+    margin-left: 10vw;
+}
+
+.form-page{
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-header{
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 14vh;
+    margin-left: 30px;
+    width: 40vw;
+    height: 26vh;
+}
+
+.main-para{
+    margin-bottom: 20px;
+}
+
+.form-container{
+    background-color: #fefffe;
+    width: 55vw;
+    height: 35vh;
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    flex-direction: column;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  .form-container input {
+    box-sizing: border-box;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+h2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding-left: 30px;
+}
+
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.break-line{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 100%;
+    
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+input:focus{
+    border: 2px solid blue;
+}
+
+ .btn {
+    border: 1px solid #596D48;
+    color: white;
+    border-radius: 8px;
+    background-color: #596D48;
+    padding: 15px 32px;
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 2rem;
+    width: 15vw;
+} 
+
+.account-para{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: black;
+}
+
+a{
+   color: #596D48; 
+   text-decoration: none;
+}
