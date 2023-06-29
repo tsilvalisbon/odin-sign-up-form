@@ -3,7 +3,7 @@ This is a solution to the Odin Sign Up Form Project on The Odin Project (https:/
 ### Links
 
 - Solution URL: [https://github.com/tsilvalisbon/odin-sign-up-form]
-- Live Site URL: []
+- Live Site URL: [https://odin-sign-up-form-project.netlify.app/]
 
 ### Built with
 
